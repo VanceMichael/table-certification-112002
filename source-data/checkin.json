@@ -1,0 +1,38 @@
+[
+  {
+    "record": "checkin-1",
+    "availableFrom": 2,
+    "kind": "accept",
+    "payload": {
+      "slot": "Q7",
+      "ticket": "H7",
+      "team": "甲",
+      "baseAttempt": "A1",
+      "state": "已签入"
+    }
+  },
+  {
+    "record": "checkin-2",
+    "availableFrom": 2,
+    "kind": "accept",
+    "payload": {
+      "slot": "Q8",
+      "ticket": "H8",
+      "player": "丙",
+      "baseAttempt": "A1",
+      "state": "已签入"
+    }
+  },
+  {
+    "record": "checkin-3",
+    "availableFrom": 3,
+    "kind": "accept",
+    "payload": {
+      "slot": "Q7",
+      "ticket": "H7",
+      "team": "甲",
+      "baseAttempt": "A1",
+      "state": "已开始"
+    }
+  }
+]

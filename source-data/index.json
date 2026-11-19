@@ -1,0 +1,11 @@
+{
+  "sources": [
+    "draws",
+    "scores",
+    "checkin"
+  ],
+  "stages": 4,
+  "originals": [],
+  "originalStages": {},
+  "digests": {}
+}

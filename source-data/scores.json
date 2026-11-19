@@ -1,0 +1,118 @@
+[
+  {
+    "record": "scores-1",
+    "availableFrom": 1,
+    "kind": "display",
+    "payload": {
+      "match": "T08",
+      "game": "S1",
+      "attempt": "A1",
+      "table": "T2",
+      "result": [
+        "11",
+        "4"
+      ]
+    }
+  },
+  {
+    "record": "scores-2",
+    "availableFrom": 1,
+    "kind": "signature",
+    "payload": {
+      "match": "T08",
+      "game": "S1",
+      "attempt": "A1",
+      "team": "甲",
+      "judges": [
+        "J1",
+        "J2"
+      ]
+    }
+  },
+  {
+    "record": "scores-3",
+    "availableFrom": 1,
+    "kind": "signature",
+    "payload": {
+      "match": "T08",
+      "game": "S2",
+      "attempt": "A1",
+      "team": "乙",
+      "judges": [
+        "J1",
+        "J2"
+      ]
+    }
+  },
+  {
+    "record": "scores-4",
+    "availableFrom": 1,
+    "kind": "signature",
+    "payload": {
+      "match": "T08",
+      "game": "C3",
+      "attempt": "A1",
+      "team": "甲",
+      "judges": [
+        "J2",
+        "J3"
+      ]
+    }
+  },
+  {
+    "record": "scores-5",
+    "availableFrom": 1,
+    "kind": "signature",
+    "payload": {
+      "match": "M08",
+      "game": "S1",
+      "attempt": "A1",
+      "winner": "丙",
+      "judges": [
+        "J7"
+      ]
+    }
+  },
+  {
+    "record": "scores-6",
+    "availableFrom": 3,
+    "kind": "void",
+    "payload": {
+      "match": "T08",
+      "game": "C3",
+      "attempt": "A1",
+      "by": "主裁",
+      "newAttempt": "A2"
+    }
+  },
+  {
+    "record": "scores-7",
+    "availableFrom": 4,
+    "kind": "signature",
+    "payload": {
+      "match": "T08",
+      "game": "C3",
+      "attempt": "A1",
+      "team": "甲",
+      "judges": [
+        "J1",
+        "J2"
+      ]
+    }
+  },
+  {
+    "record": "scores-8",
+    "availableFrom": 4,
+    "kind": "signature",
+    "payload": {
+      "match": "T08",
+      "game": "C3",
+      "attempt": "A2",
+      "team": "乙",
+      "judges": [
+        "J2",
+        "J3"
+      ]
+    }
+  }
+]

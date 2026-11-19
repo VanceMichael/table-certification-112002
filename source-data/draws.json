@@ -1,0 +1,51 @@
+[
+  {
+    "record": "draws-1",
+    "availableFrom": 1,
+    "kind": "match",
+    "payload": {
+      "group": "团体青",
+      "match": "T08",
+      "games": [
+        "S1",
+        "S2",
+        "C3"
+      ],
+      "teams": [
+        "甲",
+        "乙"
+      ],
+      "slot": "Q7",
+      "format": "team"
+    }
+  },
+  {
+    "record": "draws-2",
+    "availableFrom": 1,
+    "kind": "match",
+    "payload": {
+      "group": "个人青",
+      "match": "M08",
+      "games": [
+        "S1"
+      ],
+      "entrants": [
+        "丁",
+        "丙"
+      ],
+      "slot": "Q8",
+      "format": "single"
+    }
+  },
+  {
+    "record": "draws-3",
+    "availableFrom": 2,
+    "kind": "table",
+    "payload": {
+      "match": "T08",
+      "game": "C3",
+      "attempt": "A2",
+      "table": "T4"
+    }
+  }
+]
