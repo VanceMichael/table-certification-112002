@@ -1,8 +1,8 @@
 {
   "sources": [
-    "draws",
-    "scores",
-    "checkin"
+    "equipment",
+    "inspection",
+    "referee"
   ],
   "stages": 4,
   "originals": [],

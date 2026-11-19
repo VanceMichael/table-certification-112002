@@ -1,0 +1,64 @@
+[
+  {
+    "record": "referee-1",
+    "availableFrom": 1,
+    "kind": "needs",
+    "payload": {
+      "format": "公开",
+      "required": [
+        "台面线",
+        "网架",
+        "装配高度"
+      ]
+    }
+  },
+  {
+    "record": "referee-2",
+    "availableFrom": 1,
+    "kind": "needs",
+    "payload": {
+      "format": "分练",
+      "required": [
+        "台面线",
+        "网架"
+      ]
+    }
+  },
+  {
+    "record": "referee-3",
+    "availableFrom": 1,
+    "kind": "use",
+    "payload": {
+      "match": "S9",
+      "format": "公开",
+      "assembly": "AS1",
+      "table": "T4",
+      "state": "已开始",
+      "at": "09:50"
+    }
+  },
+  {
+    "record": "referee-4",
+    "availableFrom": 2,
+    "kind": "use",
+    "payload": {
+      "match": "S9",
+      "format": "公开",
+      "assembly": "AS1",
+      "table": "T4",
+      "state": "暂停",
+      "at": "10:05"
+    }
+  },
+  {
+    "record": "referee-5",
+    "availableFrom": 3,
+    "kind": "reserve",
+    "payload": {
+      "match": "S10",
+      "format": "公开",
+      "table": "T4",
+      "at": "10:20"
+    }
+  }
+]

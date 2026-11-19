@@ -1,4 +1,4 @@
-# 分赛台成绩采集与下一轮签入的演练来源
+# 共用比赛球台换件后的认证资料采集的演练来源
 
 这里提供独立来源的本地合成记录，与实际单位、个人和线上业务无关。
 
@@ -12,9 +12,9 @@
 
 | GET 路由 | 来源约定 |
 | --- | --- |
-| `/source/draws` | slot 是下游签入位置。team 的两场子赛由双签单可信结算；双胜队晋级。同击数时按赛程指定决胜场签单。 |
-| `/source/scores` | display 是台屏观察，不携带裁判签单效力。signature.scope 绑定组、赛、局、尝试。 |
-| `/source/checkin` | readiness 以签入凭据而非桌号为键。开始状态只有明确的裁决才能解除。 |
+| `/source/equipment` | board、net、jig 均使用实物号。assembly 是现场固定后生成的装配号。start、stop 为本馆当地时间。 |
+| `/source/inspection` | 校验覆盖对象以 subject 为准。只针对明确的装配号的记录才证明装配关系。blockRange 左闭右开。 |
+| `/source/referee` | 赛事授权要求 required 所列全部认可证据。reserve 预留，use 表示已使用现场组合。 |
 
 查询参数 `offset` 是从零开始的页偏移，`limit` 默认 3，取值 1 至 100。响应中的 `records` 含 `record` 来源记录键、`availableFrom` 首次出现的回放阶段、`kind` 记录类型、`payload` 业务字段。来源记录键与业务身份分别定义。`next` 为下一页偏移，末页为 `null`。回放阶段中的记录按到达顺序可查。
 

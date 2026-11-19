@@ -1,0 +1,85 @@
+[
+  {
+    "record": "inspection-1",
+    "availableFrom": 1,
+    "kind": "measure",
+    "payload": {
+      "test": "Q1",
+      "subject": "B3",
+      "type": "台面线",
+      "at": "08:14",
+      "jig": "JG1",
+      "result": "通过",
+      "expires": "13:00"
+    }
+  },
+  {
+    "record": "inspection-2",
+    "availableFrom": 1,
+    "kind": "measure",
+    "payload": {
+      "test": "Q2",
+      "subject": "N2",
+      "type": "网架",
+      "at": "08:11",
+      "jig": "JG2",
+      "result": "通过",
+      "expires": "12:00"
+    }
+  },
+  {
+    "record": "inspection-3",
+    "availableFrom": 1,
+    "kind": "measure",
+    "payload": {
+      "test": "Q3",
+      "subject": "AS1",
+      "type": "装配高度",
+      "at": "08:17",
+      "jig": "JG2",
+      "result": "通过",
+      "expires": "12:00"
+    }
+  },
+  {
+    "record": "inspection-4",
+    "availableFrom": 3,
+    "kind": "measure",
+    "payload": {
+      "test": "Q4",
+      "subject": "N9",
+      "type": "网架",
+      "at": "10:13",
+      "jig": "JG3",
+      "result": "通过",
+      "expires": "13:00"
+    }
+  },
+  {
+    "record": "inspection-5",
+    "availableFrom": 3,
+    "kind": "measure",
+    "payload": {
+      "test": "Q5",
+      "subject": "AS2",
+      "type": "装配高度",
+      "at": "10:17",
+      "jig": "JG2",
+      "result": "通过",
+      "expires": "12:00"
+    }
+  },
+  {
+    "record": "inspection-6",
+    "availableFrom": 4,
+    "kind": "recall",
+    "payload": {
+      "jig": "JG2",
+      "blockRange": [
+        "10:00",
+        "10:30"
+      ],
+      "reason": "夹具校验区间失效"
+    }
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "record": "equipment-1",
+    "availableFrom": 1,
+    "kind": "mount",
+    "payload": {
+      "table": "T4",
+      "board": "B3",
+      "net": "N2",
+      "assembly": "AS1",
+      "start": "08:00"
+    }
+  },
+  {
+    "record": "equipment-2",
+    "availableFrom": 2,
+    "kind": "unmount",
+    "payload": {
+      "table": "T4",
+      "assembly": "AS1",
+      "stop": "10:08"
+    }
+  },
+  {
+    "record": "equipment-3",
+    "availableFrom": 2,
+    "kind": "mount",
+    "payload": {
+      "table": "T4",
+      "board": "B3",
+      "net": "N9",
+      "assembly": "AS2",
+      "start": "10:12"
+    }
+  },
+  {
+    "record": "equipment-4",
+    "availableFrom": 3,
+    "kind": "mount",
+    "payload": {
+      "table": "T8",
+      "board": "B9",
+      "net": "N2",
+      "assembly": "AS3",
+      "start": "10:18"
+    }
+  }
+]
