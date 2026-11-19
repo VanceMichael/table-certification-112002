@@ -19,3 +19,7 @@
 查询参数 `offset` 是从零开始的页偏移，`limit` 默认 3，取值 1 至 100。响应中的 `records` 含 `record` 来源记录键、`availableFrom` 首次出现的回放阶段、`kind` 记录类型、`payload` 业务字段。来源记录键与业务身份分别定义。`next` 为下一页偏移，末页为 `null`。回放阶段中的记录按到达顺序可查。
 
 控制员通过 `POST /control?stage=2` 切换到第 2 阶段，服务会保留更早已可查的记录。每次换阶段后按根路径返回的 `stage` 确认切换成功。
+
+handover 由器材组确认一套装配已交还。transfer 使用 stamp 标明同一次转台，desk 和 referee 是独立确认状态。reserve 只记录预留，use 仅证明裁判端的实际使用。
+
+handover 表示器材组已交还指定装配，reserve 仅占用竞赛时段，transfer 的 desk 与 referee 是两处独立确认。只有两端对相同 stamp 确认后，目标装配可以给该暂停场次继续使用。
